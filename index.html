@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK Autosphere Parts | Bike & Tractor Experts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <i class="fas fa-bars menu-icon" onclick="toggleMenu()"></i>
+        <div class="logo">SK <span>Autosphere</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="parts.html">Spare Parts</a></li>
+            <li><a href="garage.html">Garage</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Quality Parts for Every Ride & Field</h1>
+            <p>Your one-stop shop for Bike & Tractor spare parts and expert repair services.</p>
+            <a href="#contact" class="btn">Get a Quote</a>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <h2 class="section-title">Our Specializations</h2>
+        <div class="services-grid">
+            <div class="card">
+                <i class="fas fa-motorcycle"></i>
+                <h3>Bike Spare Parts</h3>
+                <p>Genuine engines, brakes, and body parts for all major bike brands.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-tractor"></i>
+                <h3>Tractor Spare Parts</h3>
+                <p>Heavy-duty components for Mahindra,Swaraj,Sonalika, John Deere, and more.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-tools"></i>
+                <h3>Tractor Garage</h3>
+                <p>Expert mechanical repairs and engine overhauling by certified technicians.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p class="form-intro">
+            Please fill this form to enquire about spare parts or garage services.
+            Our team will contact you shortly.
+        </p>
+
+        <form id="contactForm" class="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="tel" id="phone" placeholder="Contact Number" required>
+            <input type="text" id="subject" placeholder="Subject" required>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <h2>Visit Our Shop</h2>
+        <p><i class="fas fa-map-marker-alt"></i>Nagina-Najibabad road,In front of Dwarikesh Sugar Mill,Bundki,Uttar
+            Pradesh</p>
+        <p><i class="fas fa-phone"></i> +91 99274 26906</p>
+        <p><i class="fas fa-envelope"></i>sudhir.chauhan02@gmail.com</p>
+    </section>
+    <!-- Owner Details Section -->
+    <section id="owner" class="container">
+        <h2 class="section-title">Owner Details</h2>
+
+        <div class="owner-card">
+            <img src="owner.jpg" alt="Owner Photo">
+            <h3>Sudhir Chauhan</h3>
+            <p><strong>Founder & Owner</strong></p>
+            <p>Mr. Sudhir Chauhan is the Founder & Owner of SK Autosphere Parts with over <b>30+ years of hands-on
+                experience in the Mechanical Department at SRF Limited,Kashipur</b>.
+                He brings deep technical expertise in bike and tractor spare parts, engine systems, and mechanical
+                repairs, ensuring reliable service, genuine parts, and expert guidance for every customer.</p>
+
+            <div class="owner-actions">
+                <a href="tel:+919927426906" class="btn">Call Owner</a>
+                <a href="https://wa.me/919927426906" target="_blank" class="btn whatsapp">WhatsApp</a>
+            </div>
+        </div>
+    </section>
+    <h3 class="map-title">Find Us on Google Maps</h3>
+
+    <div class="map-wrapper">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d433.97335134723215!2d78.38359815134646!3d29.52257268516242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390bdc77c37dbc9d%3A0x1571117ddc2c71d9!2sG9FM%2B292%2C%20MDR%20161W%2C%20Maidpura%20Sultan%2C%20Gajipur%20Bhagwan%2C%20Uttar%20Pradesh%20246762!5e0!3m2!1sen!2sin!4v1771593011591!5m2!1sen!2sin"
+            allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2026 SK Autosphere Parts. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <!--EMAILJS SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("IvKvrYM7v1sQNQ2pa");
+        })();
+    </script>
+
+
+</body>
+
+</html>
