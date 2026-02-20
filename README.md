@@ -46,5 +46,4 @@ This website helps customers:
 
 ---
 
-## 📂 Project Structure
 
